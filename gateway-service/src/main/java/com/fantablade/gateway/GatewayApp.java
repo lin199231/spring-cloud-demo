@@ -1,11 +1,11 @@
-package com.fantablade;
+package com.fantablade.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class App {
+public class GatewayApp {
     public static void main( String[] args ) {
-        SpringApplication.run(App.class, args);
+        SpringApplication.run(GatewayApp.class, args);
     }
 }
