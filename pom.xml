@@ -33,6 +33,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <springboot-version>2.0.4.RELEASE</springboot-version>
+        <springcloud-version>2.0.1.RELEASE</springcloud-version>
     </properties>
 
     <dependencies>
@@ -41,7 +42,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter</artifactId>
-            <version>2.0.1.RELEASE</version>
+            <version>${springcloud-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>${springboot-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
