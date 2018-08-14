@@ -10,6 +10,10 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:8081/eureka/
 
+feign:
+  hystrix:
+    enabled: true
+
 spring:
   application:
     name: order-service
